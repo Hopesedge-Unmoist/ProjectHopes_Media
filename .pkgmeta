@@ -1,0 +1,19 @@
+package-as: ProjectHopes_Media
+
+enable-nolib-creation: no
+
+move-folders:
+    ProjectHopes_Media/ProjectHopes_Media: ProjectHopes_Media
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+  
+ignore:
+  - .github
+  - .git
+  - .gitignore
+  - .vscode
+  - CHANGELOG.md
+  - LICENSE
+  - .pkgmeta
